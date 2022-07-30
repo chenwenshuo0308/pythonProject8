@@ -91,13 +91,28 @@ person = {"age": "18", "name": "saf", 1: 2, 1: 2}
 
 l = [1, 1, 2, 3, 4, 4]
 a = set(l)
-print(a, type(a))
+# print(a, type(a))
 # a.pop()
 # a.discard(3)
 # print(a, type(a))
 
-its = iter(a)
-# print(next(its))
-# print(next(its))
-for v in its:
-    print(v)
+# its = iter(a)
+# # print(next(its))
+# # print(next(its))
+# for v in its:
+#     print(v)
+
+
+list1 = [1, 1, 2, 3, 4, 4]
+a = set(list1)
+b = frozenset([1, 2, 4])
+# result = a.intersection(b)
+# result = a.union(b)
+# result = b.union(a)
+# result = b.update(a)
+# result = a.difference(b)
+# print(a, b)
+# print(result, type(result))
+print(a.issubset(b))
+print(a.isdisjoint(b))
+print(a.issuperset(b))
