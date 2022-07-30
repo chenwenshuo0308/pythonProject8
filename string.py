@@ -13,3 +13,4 @@
 str1 = "shafjkeflasblhejbgkh"
 print(str1.find("f", 5, 20))
 print(str1.index("sha"))
+print(str1.replace("s", "z"))
