@@ -49,7 +49,6 @@
 # file.close()
 # imagefile.close()
 # tofile0.close()
-import os
 
 # os.rename("pythonfunction", "python文件")
 # os.renames()#多级修改
@@ -57,5 +56,5 @@ import os
 # os.rmdir("python文件")#删除空目录
 # os.removedirs()#递归删除，删除路径所有内容，不能为空
 # os.mkdir()#创建文件目录
-print(os.getcwd())
-print(os.listdir())
+# print(os.getcwd())
+# print(os.listdir())
